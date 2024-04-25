@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KicksCart</title>
+    <link rel="shortcut icon" href="logokickscart.jpeg" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+
+        .header {
+            background-color: #63759b;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            border: black 1px solid;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .product-item {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-item h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .product-item p {
+            color: #666;
+        }
+
+        .footer {
+            background-color: #63759b;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+
+        h1{
+            font-size: 40px;
+            font-family:monospace;
+            font-style:unset;
+        }
+
+        .slogan{
+            font-size: small;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .shoes{
+            height: 250px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>KicksCart</h1>
+        <p class="slogan">- From Streets to Sneaks, Kickscart's Got Your Feet - </p>
+        <img src="logokickscart.jpeg" alt="Logo" class="logo">
+        
+    </div>
+
+    <div class="container">
+        <h2>New Arrivals:</h2>
+        <div class="product">
+            <div class="product-item">
+                <img src="shoes1.jpeg" alt="Product 1" class="shoes">
+                <h3>Nike Air Jordan</h3>
+                <p>Rs. 14,999 /-</p>
+            </div>
+            <div class="product-item">
+                <img src="shoes2.jpeg" alt="Product 2" class="shoes">
+                <h3>Nike Air Max Pulse</h3>
+                <p>Rs. 13,297 /- </p>
+            </div>
+            <div class="product-item">
+                <img src="shoes3.png" alt="Product 3" class="shoes">
+                <h3>Nike Court Vision Low</h3>
+                <p>Rs. 7,890 /-</p>
+            </div>
+            <div class="product-item">
+                <img src="shoes4.jpeg" alt="Product 4" class="shoes">
+                <h3>Nike Revolution 7</h3>
+                <p>Rs. 4,695 /-</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 KicksCart. All rights reserved.</p>
+    </div>
+</body>
+</html>
